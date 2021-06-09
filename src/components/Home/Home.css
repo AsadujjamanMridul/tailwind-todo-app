@@ -1,0 +1,20 @@
+.item {
+    cursor: pointer;
+}
+
+.item:first-child {
+    border-top-width: 1px !important;
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important;
+}
+
+.item:last-child {
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+
+.item.done {
+    opacity: 0.5;
+    text-decoration: line-through;
+    cursor: pointer;
+}
